@@ -26,8 +26,8 @@ RUN curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | b
 # Install a VS Code extension:
 # Note: we use a different marketplace than VS Code. See https://github.com/cdr/code-server/blob/main/docs/FAQ.md#differences-compared-to-vs-code
 RUN code-server --install-extension esbenp.prettier-vscode
-RUN code-server --install-extension deploy-container/extensions/peymanslh.blueberry-dark-theme-1.1.0.vsix
-RUN code-server --install-extension deploy-container/extensions/Equinusocio.moxer-icons-5.8.0.vsix
+RUN code-server --install-extension deploy-container/peymanslh.blueberry-dark-theme-1.1.0.vsix
+
 
 # Install apt packages:
 # RUN sudo apt-get install -y ubuntu-make
