@@ -28,6 +28,8 @@ RUN curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | b
 RUN code-server --install-extension esbenp.prettier-vscode
 COPY deploy-container/files/peymanslh.blueberry-dark-theme-1.1.0.vsix ~/.local/share/code-server/extensions
 RUN code-server --install-extension ~/.local/share/code-server/extensions/paymanslh.blueberry-dark-theme-1.1.0.vsix
+COPY deploy-container/files/Equinusocio.moxer-icons-5.8.0.vsix ~/.local/share/code-server/extensions
+RUN code-server --install-extension ~/.local/share/code-server/extensions/Equinusocio.moxer-icons-5.8.0.vsix
 
 # Install apt packages:
 # RUN sudo apt-get install -y ubuntu-make
