@@ -1,7 +1,62 @@
 {
-  "workbench.colorTheme": "Default Dark+",
-  "git.postCommitCommand": "sync",
+  "workbench.colorTheme": "Blueberry dark theme",
+  "tabnine.experimentalAutoImports": true,
+  "workbench.colorCustomizations": {
+      "editorBracketHighlight.foreground3": "#ED9DA5",
+      "editorBracketHighlight.foreground2": "#8777E4",
+      "editorBracketHighlight.foreground1": "#d25278",
+    "editorBracketHighlight.foreground4": "#EDB2E4",
+    "editorBracketHighlight.unexpectedBracket.foreground": "#7AFA8E",
+    "gitDecoration.modifiedResourceForeground": "#a0dea9",
+    "gitlens.trailingLineBackgroundColor": "#7390aa",
+    "editor.lineHighlightBackground": "#42657a",
+    "editor.selectionHighlightBackground": "#7390aa",
+    "badge.foreground" : "#add7ff",
+    "badge.background": "#ba5067"
+  },
+  "editor.tokenColorCustomizations": {
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "security.workspace.trust.untrustedFiles": "open",
   "git.enableSmartCommit": true,
-  "git.confirmSync": false,
-  "git.autofetch": true
+  "terminal.external.osxExec": "iTerm.app",
+  "terminal.integrated.fontFamily": "DroidSansMono Nerd Font",
+  "workbench.preferredDarkColorTheme": "Blueberry dark theme",
+  "workbench.preferredHighContrastColorTheme": "Blueberry dark theme",
+  "workbench.preferredHighContrastLightColorTheme": "Blueberry dark theme",
+  "workbench.preferredLightColorTheme": "Blueberry dark theme",
+  "gitlens.heatmap.coldColor": "#62e4a6",
+  "gitlens.heatmap.hotColor": "#d25279",
+  "window.autoDetectHighContrast": false,
+  "screencastMode.mouseIndicatorColor": "#e6f0fc",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": false,
+  "prettier.jsxBracketSameLine": true,
+  "editor.guides.bracketPairs": "active",
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.iconTheme": "gruvbox-material-icon-theme",
+  "git.decorations.enabled": true,
+  "git.decorations.colorCustomizations": {
+
+  },
+  "gitlens.defaultDateLocale": null,
+  "workbench.statusBar.visible": false,
+  "workbench.tree.indent": 10,
+  "window.zoomLevel": 1,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "redhat.telemetry.enabled": false,
+  "solargraph.formatting": true,
+  "git.enableCommitSigning": true,
+  "git.postCommitCommand": "push"
 }
