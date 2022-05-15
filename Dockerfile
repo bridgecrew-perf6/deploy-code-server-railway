@@ -15,7 +15,7 @@ RUN curl https://rclone.org/install.sh | sudo bash
 
 # Copy rclone tasks to /tmp, to potentially be used
 COPY deploy-container/rclone-tasks.json /tmp/rclone-tasks.json
-COPY deploy-container/peymanslh.blueberry-dark-theme-1.1.0.vsix ~/.local/share/code-server/extensions
+COPY deploy-container/files/peymanslh.blueberry-dark-theme-1.1.0.vsix ~/.local/share/code-server/extensions
 # Fix permissions for code-server
 RUN sudo chown -R coder:coder /home/coder/.local
 
